@@ -23,7 +23,7 @@ Module Program
 
         body.Add("requestType", "Payment")
 
-        body.Add("mid", "MAHELS18173569865039")
+        body.Add("mid", "XXXXXXXXXX")
 
         body.Add("websiteName", "WEBSTAGING") ''DEFAULT  for production
 
@@ -35,7 +35,7 @@ Module Program
 
         body.Add("callbackUrl", "http://localhost:54414/SIS/OnlinePaytmResponse.aspx")
 
-        Dim paytmChecksum As String = Checksum.generateSignature(JsonConvert.SerializeObject(body), "0mZGIBW4MzIQCN9m")
+        Dim paytmChecksum As String = Checksum.generateSignature(JsonConvert.SerializeObject(body), "YYYYYYYYYY")
 
         head.Add("signature", paytmChecksum)
 
@@ -45,7 +45,7 @@ Module Program
 
         Dim post_data As String = JsonConvert.SerializeObject(requestBody)
 
-        Dim url = "https://securegw-stage.paytm.in/theia/api/v1/initiateTransaction?mid=MAHELS18173569865039&orderId=" + oDate
+        Dim url = "https://securegw-stage.paytm.in/theia/api/v1/initiateTransaction?mid=XXXXXXXXXX&orderId=" + oDate
 
         Dim webRequest As HttpWebRequest = DirectCast(HttpWebRequest.Create(url), HttpWebRequest)
 
