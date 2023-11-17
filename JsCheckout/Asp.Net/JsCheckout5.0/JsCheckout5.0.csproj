@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>JsCheckout5._0</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Remote.Linq.Newtonsoft.Json" Version="7.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Paytm">
+      <HintPath>..\..\..\Downloads\AOA_DOTNET_CODESNIPP\Paytm.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

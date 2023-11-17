@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\JsCheckout5.0.props" />
+</Project>
