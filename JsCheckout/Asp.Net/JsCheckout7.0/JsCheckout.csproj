@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\js\script.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.16" />
+    <PackageReference Include="Remote.Linq.Newtonsoft.Json" Version="7.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Paytm">
+      <HintPath>..\..\..\..\..\Paytm_nopCommerce_Plugin-master\Paytm_nopCommerce_Plugin-master\4.6\Nop.Plugin.Payments.Paytm\dll\Paytm.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

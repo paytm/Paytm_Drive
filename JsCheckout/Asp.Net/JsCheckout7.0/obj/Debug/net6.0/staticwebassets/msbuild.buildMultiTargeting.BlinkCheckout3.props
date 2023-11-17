@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\BlinkCheckout3.props" />
+</Project>

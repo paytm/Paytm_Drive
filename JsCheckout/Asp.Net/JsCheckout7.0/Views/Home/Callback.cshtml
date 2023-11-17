@@ -1,0 +1,31 @@
+﻿
+@{
+    ViewData["Title"] = "Callback";
+}
+
+@if(Context.Request.Form.Count > 0)
+{
+    @if (@ViewBag.checkSumMatch == "success")
+    {
+        <h4 class="text-success text-left">Checksum is verified. Transaction details are below:</h4>
+        <table class="table table-bordered">
+            @foreach (var key in Context.Request.Form)
+            {
+                <tr><td>@key.Key</td><td>@key.Value</td></tr>
+            }
+        </table>
+    }
+    else
+    {
+        <h3 class="text-danger">Checksum is not verified.</h3>
+    }
+}
+else
+{
+    <h3 class="text-danger">Empty POST Response</h3>
+}
+    </div>
+</div>
+
+
+
