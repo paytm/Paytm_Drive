@@ -1,0 +1,673 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75329A462CB3B6CF007A0587 /* ModeSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75329A452CB3B6CF007A0587 /* ModeSelectionViewController.swift */; };
+		7536ED792CAA8E920003EE8B /* SubmitPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7536ED782CAA8E920003EE8B /* SubmitPageViewController.swift */; };
+		7536ED7B2CAAB4C20003EE8B /* TransactionDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7536ED7A2CAAB4C20003EE8B /* TransactionDetailViewController.swift */; };
+		75A363BD2CA6D0EE00209244 /* QRScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A363BC2CA6D0EE00209244 /* QRScannerViewController.swift */; };
+		75A9DF3B2B8F22B7005AC0EA /* DropDownTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A9DF392B8F22B7005AC0EA /* DropDownTableViewCell.swift */; };
+		75A9DF3C2B8F22B7005AC0EA /* DropDownTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75A9DF3A2B8F22B7005AC0EA /* DropDownTableViewCell.xib */; };
+		75DC20BF2ADD4E770060EA86 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DC20BE2ADD4E770060EA86 /* Utilities.swift */; };
+		75E7D0032AB9A4FE006CF919 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E7D0022AB9A4FE006CF919 /* AppDelegate.swift */; };
+		75E7D0052AB9A4FE006CF919 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E7D0042AB9A4FE006CF919 /* SceneDelegate.swift */; };
+		75E7D0072AB9A4FE006CF919 /* IntentSampleAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E7D0062AB9A4FE006CF919 /* IntentSampleAppViewController.swift */; };
+		75E7D00A2AB9A4FE006CF919 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75E7D0082AB9A4FE006CF919 /* Main.storyboard */; };
+		75E7D00C2AB9A500006CF919 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75E7D00B2AB9A500006CF919 /* Assets.xcassets */; };
+		75E7D00F2AB9A500006CF919 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75E7D00D2AB9A500006CF919 /* LaunchScreen.storyboard */; };
+		75E7D01A2AB9A500006CF919 /* UPI_Intent_Sample_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E7D0192AB9A500006CF919 /* UPI_Intent_Sample_AppTests.swift */; };
+		75E7D0242AB9A500006CF919 /* UPI_Intent_Sample_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E7D0232AB9A500006CF919 /* UPI_Intent_Sample_AppUITests.swift */; };
+		75E7D0262AB9A500006CF919 /* UPI_Intent_Sample_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E7D0252AB9A500006CF919 /* UPI_Intent_Sample_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75E7D0162AB9A500006CF919 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75E7CFF72AB9A4FE006CF919 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75E7CFFE2AB9A4FE006CF919;
+			remoteInfo = "UPI Intent Sample App";
+		};
+		75E7D0202AB9A500006CF919 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75E7CFF72AB9A4FE006CF919 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75E7CFFE2AB9A4FE006CF919;
+			remoteInfo = "UPI Intent Sample App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		75329A452CB3B6CF007A0587 /* ModeSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeSelectionViewController.swift; sourceTree = "<group>"; };
+		7536ED782CAA8E920003EE8B /* SubmitPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitPageViewController.swift; sourceTree = "<group>"; };
+		7536ED7A2CAAB4C20003EE8B /* TransactionDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDetailViewController.swift; sourceTree = "<group>"; };
+		75A363BC2CA6D0EE00209244 /* QRScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannerViewController.swift; sourceTree = "<group>"; };
+		75A9DF392B8F22B7005AC0EA /* DropDownTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownTableViewCell.swift; sourceTree = "<group>"; };
+		75A9DF3A2B8F22B7005AC0EA /* DropDownTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DropDownTableViewCell.xib; sourceTree = "<group>"; };
+		75DC20BE2ADD4E770060EA86 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		75E7CFFF2AB9A4FE006CF919 /* UPI Intent Sample App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UPI Intent Sample App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75E7D0022AB9A4FE006CF919 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		75E7D0042AB9A4FE006CF919 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		75E7D0062AB9A4FE006CF919 /* IntentSampleAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentSampleAppViewController.swift; sourceTree = "<group>"; };
+		75E7D0092AB9A4FE006CF919 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		75E7D00B2AB9A500006CF919 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75E7D00E2AB9A500006CF919 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		75E7D0102AB9A500006CF919 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75E7D0152AB9A500006CF919 /* UPI Intent Sample AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UPI Intent Sample AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75E7D0192AB9A500006CF919 /* UPI_Intent_Sample_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UPI_Intent_Sample_AppTests.swift; sourceTree = "<group>"; };
+		75E7D01F2AB9A500006CF919 /* UPI Intent Sample AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UPI Intent Sample AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75E7D0232AB9A500006CF919 /* UPI_Intent_Sample_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UPI_Intent_Sample_AppUITests.swift; sourceTree = "<group>"; };
+		75E7D0252AB9A500006CF919 /* UPI_Intent_Sample_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UPI_Intent_Sample_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75E7CFFC2AB9A4FE006CF919 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75E7D0122AB9A500006CF919 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75E7D01C2AB9A500006CF919 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75D8C2722CB8037B004D1782 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				75329A452CB3B6CF007A0587 /* ModeSelectionViewController.swift */,
+				75D8C2742CB80437004D1782 /* Intent Sample App VCs */,
+				75D8C2752CB80449004D1782 /* QR Scan Sample App VCs */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		75D8C2732CB803C9004D1782 /* Table View Cells */ = {
+			isa = PBXGroup;
+			children = (
+				75A9DF392B8F22B7005AC0EA /* DropDownTableViewCell.swift */,
+				75A9DF3A2B8F22B7005AC0EA /* DropDownTableViewCell.xib */,
+			);
+			path = "Table View Cells";
+			sourceTree = "<group>";
+		};
+		75D8C2742CB80437004D1782 /* Intent Sample App VCs */ = {
+			isa = PBXGroup;
+			children = (
+				75E7D0062AB9A4FE006CF919 /* IntentSampleAppViewController.swift */,
+			);
+			path = "Intent Sample App VCs";
+			sourceTree = "<group>";
+		};
+		75D8C2752CB80449004D1782 /* QR Scan Sample App VCs */ = {
+			isa = PBXGroup;
+			children = (
+				75A363BC2CA6D0EE00209244 /* QRScannerViewController.swift */,
+				7536ED782CAA8E920003EE8B /* SubmitPageViewController.swift */,
+				7536ED7A2CAAB4C20003EE8B /* TransactionDetailViewController.swift */,
+			);
+			path = "QR Scan Sample App VCs";
+			sourceTree = "<group>";
+		};
+		75E7CFF62AB9A4FE006CF919 = {
+			isa = PBXGroup;
+			children = (
+				75E7D0012AB9A4FE006CF919 /* UPI Intent Sample App */,
+				75E7D0182AB9A500006CF919 /* UPI Intent Sample AppTests */,
+				75E7D0222AB9A500006CF919 /* UPI Intent Sample AppUITests */,
+				75E7D0002AB9A4FE006CF919 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75E7D0002AB9A4FE006CF919 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75E7CFFF2AB9A4FE006CF919 /* UPI Intent Sample App.app */,
+				75E7D0152AB9A500006CF919 /* UPI Intent Sample AppTests.xctest */,
+				75E7D01F2AB9A500006CF919 /* UPI Intent Sample AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75E7D0012AB9A4FE006CF919 /* UPI Intent Sample App */ = {
+			isa = PBXGroup;
+			children = (
+				75E7D0022AB9A4FE006CF919 /* AppDelegate.swift */,
+				75E7D0042AB9A4FE006CF919 /* SceneDelegate.swift */,
+				75E7D0082AB9A4FE006CF919 /* Main.storyboard */,
+				75E7D00B2AB9A500006CF919 /* Assets.xcassets */,
+				75E7D00D2AB9A500006CF919 /* LaunchScreen.storyboard */,
+				75E7D0102AB9A500006CF919 /* Info.plist */,
+				75D8C2722CB8037B004D1782 /* View Controllers */,
+				75D8C2732CB803C9004D1782 /* Table View Cells */,
+				75DC20BE2ADD4E770060EA86 /* Utilities.swift */,
+			);
+			path = "UPI Intent Sample App";
+			sourceTree = "<group>";
+		};
+		75E7D0182AB9A500006CF919 /* UPI Intent Sample AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				75E7D0192AB9A500006CF919 /* UPI_Intent_Sample_AppTests.swift */,
+			);
+			path = "UPI Intent Sample AppTests";
+			sourceTree = "<group>";
+		};
+		75E7D0222AB9A500006CF919 /* UPI Intent Sample AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				75E7D0232AB9A500006CF919 /* UPI_Intent_Sample_AppUITests.swift */,
+				75E7D0252AB9A500006CF919 /* UPI_Intent_Sample_AppUITestsLaunchTests.swift */,
+			);
+			path = "UPI Intent Sample AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75E7CFFE2AB9A4FE006CF919 /* UPI Intent Sample App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75E7D0292AB9A500006CF919 /* Build configuration list for PBXNativeTarget "UPI Intent Sample App" */;
+			buildPhases = (
+				75E7CFFB2AB9A4FE006CF919 /* Sources */,
+				75E7CFFC2AB9A4FE006CF919 /* Frameworks */,
+				75E7CFFD2AB9A4FE006CF919 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UPI Intent Sample App";
+			productName = "UPI Intent Sample App";
+			productReference = 75E7CFFF2AB9A4FE006CF919 /* UPI Intent Sample App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75E7D0142AB9A500006CF919 /* UPI Intent Sample AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75E7D02C2AB9A500006CF919 /* Build configuration list for PBXNativeTarget "UPI Intent Sample AppTests" */;
+			buildPhases = (
+				75E7D0112AB9A500006CF919 /* Sources */,
+				75E7D0122AB9A500006CF919 /* Frameworks */,
+				75E7D0132AB9A500006CF919 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75E7D0172AB9A500006CF919 /* PBXTargetDependency */,
+			);
+			name = "UPI Intent Sample AppTests";
+			productName = "UPI Intent Sample AppTests";
+			productReference = 75E7D0152AB9A500006CF919 /* UPI Intent Sample AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		75E7D01E2AB9A500006CF919 /* UPI Intent Sample AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75E7D02F2AB9A500006CF919 /* Build configuration list for PBXNativeTarget "UPI Intent Sample AppUITests" */;
+			buildPhases = (
+				75E7D01B2AB9A500006CF919 /* Sources */,
+				75E7D01C2AB9A500006CF919 /* Frameworks */,
+				75E7D01D2AB9A500006CF919 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75E7D0212AB9A500006CF919 /* PBXTargetDependency */,
+			);
+			name = "UPI Intent Sample AppUITests";
+			productName = "UPI Intent Sample AppUITests";
+			productReference = 75E7D01F2AB9A500006CF919 /* UPI Intent Sample AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75E7CFF72AB9A4FE006CF919 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					75E7CFFE2AB9A4FE006CF919 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					75E7D0142AB9A500006CF919 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 75E7CFFE2AB9A4FE006CF919;
+					};
+					75E7D01E2AB9A500006CF919 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 75E7CFFE2AB9A4FE006CF919;
+					};
+				};
+			};
+			buildConfigurationList = 75E7CFFA2AB9A4FE006CF919 /* Build configuration list for PBXProject "UPI Intent Sample App" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75E7CFF62AB9A4FE006CF919;
+			productRefGroup = 75E7D0002AB9A4FE006CF919 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75E7CFFE2AB9A4FE006CF919 /* UPI Intent Sample App */,
+				75E7D0142AB9A500006CF919 /* UPI Intent Sample AppTests */,
+				75E7D01E2AB9A500006CF919 /* UPI Intent Sample AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75E7CFFD2AB9A4FE006CF919 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75E7D00F2AB9A500006CF919 /* LaunchScreen.storyboard in Resources */,
+				75E7D00C2AB9A500006CF919 /* Assets.xcassets in Resources */,
+				75A9DF3C2B8F22B7005AC0EA /* DropDownTableViewCell.xib in Resources */,
+				75E7D00A2AB9A4FE006CF919 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75E7D0132AB9A500006CF919 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75E7D01D2AB9A500006CF919 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75E7CFFB2AB9A4FE006CF919 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7536ED7B2CAAB4C20003EE8B /* TransactionDetailViewController.swift in Sources */,
+				75E7D0072AB9A4FE006CF919 /* IntentSampleAppViewController.swift in Sources */,
+				75E7D0032AB9A4FE006CF919 /* AppDelegate.swift in Sources */,
+				75A363BD2CA6D0EE00209244 /* QRScannerViewController.swift in Sources */,
+				75A9DF3B2B8F22B7005AC0EA /* DropDownTableViewCell.swift in Sources */,
+				75329A462CB3B6CF007A0587 /* ModeSelectionViewController.swift in Sources */,
+				75DC20BF2ADD4E770060EA86 /* Utilities.swift in Sources */,
+				75E7D0052AB9A4FE006CF919 /* SceneDelegate.swift in Sources */,
+				7536ED792CAA8E920003EE8B /* SubmitPageViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75E7D0112AB9A500006CF919 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75E7D01A2AB9A500006CF919 /* UPI_Intent_Sample_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75E7D01B2AB9A500006CF919 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75E7D0242AB9A500006CF919 /* UPI_Intent_Sample_AppUITests.swift in Sources */,
+				75E7D0262AB9A500006CF919 /* UPI_Intent_Sample_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75E7D0172AB9A500006CF919 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75E7CFFE2AB9A4FE006CF919 /* UPI Intent Sample App */;
+			targetProxy = 75E7D0162AB9A500006CF919 /* PBXContainerItemProxy */;
+		};
+		75E7D0212AB9A500006CF919 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75E7CFFE2AB9A4FE006CF919 /* UPI Intent Sample App */;
+			targetProxy = 75E7D0202AB9A500006CF919 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		75E7D0082AB9A4FE006CF919 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75E7D0092AB9A4FE006CF919 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		75E7D00D2AB9A500006CF919 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75E7D00E2AB9A500006CF919 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75E7D0272AB9A500006CF919 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		75E7D0282AB9A500006CF919 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75E7D02A2AB9A500006CF919 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 56;
+				DEVELOPMENT_TEAM = G7SAYVH464;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "UPI Intent Sample App/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Need access to camera to scan QR Codes";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 10.36.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.paytm.intentTestApp1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		75E7D02B2AB9A500006CF919 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 56;
+				DEVELOPMENT_TEAM = G7SAYVH464;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "UPI Intent Sample App/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Need access to camera to scan QR Codes";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 10.36.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.paytm.intentTestApp1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		75E7D02D2AB9A500006CF919 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G7SAYVH464;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.one97.paytm.all.bank.UPI-Intent-Sample-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UPI Intent Sample App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UPI Intent Sample App";
+			};
+			name = Debug;
+		};
+		75E7D02E2AB9A500006CF919 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G7SAYVH464;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.one97.paytm.all.bank.UPI-Intent-Sample-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UPI Intent Sample App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UPI Intent Sample App";
+			};
+			name = Release;
+		};
+		75E7D0302AB9A500006CF919 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G7SAYVH464;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.one97.paytm.all.bank.UPI-Intent-Sample-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "UPI Intent Sample App";
+			};
+			name = Debug;
+		};
+		75E7D0312AB9A500006CF919 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G7SAYVH464;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.one97.paytm.all.bank.UPI-Intent-Sample-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "UPI Intent Sample App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75E7CFFA2AB9A4FE006CF919 /* Build configuration list for PBXProject "UPI Intent Sample App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75E7D0272AB9A500006CF919 /* Debug */,
+				75E7D0282AB9A500006CF919 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75E7D0292AB9A500006CF919 /* Build configuration list for PBXNativeTarget "UPI Intent Sample App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75E7D02A2AB9A500006CF919 /* Debug */,
+				75E7D02B2AB9A500006CF919 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75E7D02C2AB9A500006CF919 /* Build configuration list for PBXNativeTarget "UPI Intent Sample AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75E7D02D2AB9A500006CF919 /* Debug */,
+				75E7D02E2AB9A500006CF919 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75E7D02F2AB9A500006CF919 /* Build configuration list for PBXNativeTarget "UPI Intent Sample AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75E7D0302AB9A500006CF919 /* Debug */,
+				75E7D0312AB9A500006CF919 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75E7CFF72AB9A4FE006CF919 /* Project object */;
+}
